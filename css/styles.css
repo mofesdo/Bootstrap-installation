@@ -2,11 +2,21 @@ body {
   font-family: "Montserrat";
   text-align: center;
 }
+
 .container-fluid {
   padding: 7% 15%;
 }
 
-h1, h2, h3, h4, h5, h6{
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
   font-weight: bold;
 }
@@ -15,17 +25,19 @@ p {
   color: #8f8f8f;
 }
 
-.big-heading{
-font-family: "Montserrat";
-font-size: 3.5rem;
-line-height: 1.5;
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
-.section-heading{
+
+.section-heading {
   font-family: "Montserrat";
   font-size: 3rem;
   font-weight: 900;
   line-height: 1.5;
 }
+
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -48,14 +60,12 @@ line-height: 1.5;
 .download-button {
   margin: 5% 3% 5% 0;
 }
-#title {
-  background-color: #ff4c68;
-  color: #fff;
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
   text-align: left;
 }
-#title .container-fluid{
-  padding: 3% 15% 7%;
-}
+
 .title-image {
   width: 60%;
   transform: rotate(25deg);
@@ -64,13 +74,14 @@ line-height: 1.5;
 }
 
 #features {
-  background-color: #fff;
   position: relative;
   /* z-index: 1; */
 }
-.feature-title{
+
+.feature-title {
   font-size: 1.5rem;
 }
+
 .feature-box {
   padding: 5%;
 }
@@ -86,12 +97,13 @@ line-height: 1.5;
 
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
-.testimonial-text{
+
+.testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
 }
+
 .testimonial-image {
   width: 20%;
   border-radius: 100%;
@@ -108,32 +120,29 @@ line-height: 1.5;
   margin: 20px 20px 50px;
 }
 
-#pricing{
+#pricing {
   padding: 100px;
 }
 
-.price-text{
+.price-text {
   font-size: 3rem;
   line-height: 1.5;
 }
-.pricing-column{
+
+.pricing-column {
   padding: 3% 2%;
 }
 
-#cta{
-background-color: #ff4c68;
-color: #fff;
-}
-
-.footer-icon{
+.footer-icon {
   margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
-  #title{
+  #title {
     text-align: center;
   }
-  .title-image{
+
+  .title-image {
     position: static;
     transform: rotate(0);
   }
